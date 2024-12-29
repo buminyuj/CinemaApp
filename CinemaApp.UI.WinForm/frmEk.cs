@@ -179,7 +179,7 @@ namespace CinemaApp.UI.WinForm
                 }
 
                 // Mail mesajını oluştur
-                MailMessage mm = new MailMessage("gorselmail3434@gmail.com", recipientEmail);
+                MailMessage mm = new MailMessage("yourmailadress@gmail.com", recipientEmail);
                 mm.Subject = "Satış Bilgileri";
                 mm.Body = mailBody.ToString();
 
@@ -188,7 +188,7 @@ namespace CinemaApp.UI.WinForm
                 {
                     Host = "smtp.gmail.com",
                     Port = 587,
-                    Credentials = new System.Net.NetworkCredential("gorselmail3434@gmail.com", "gljq rqxy qhii gjpz"),
+                    Credentials = new System.Net.NetworkCredential("yourmailadress@gmail.com", "your mail adress's 2FA code here"),
                     EnableSsl = true
                 };
 
